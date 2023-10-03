@@ -26,3 +26,17 @@ git log
 git config --global user.name "Xiaozhi"
 git config --global user.email "lwz3895@163.com"
 git config --global --list
+
+9、设置密钥
+ssh-keygen -t rsa -C "lwz3895@163.com"
+
+10、添加远程仓库(前提先github创建仓库learn_git)
+git remote add origin https://github.com/Xiaozhi36/learn_git.git
+git remote
+
+11、复制密码设置sshkeys
+
+12、测试git连接
+ssh -T git@github.com
+
+13、推送到远程仓库
