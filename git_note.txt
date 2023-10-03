@@ -1,0 +1,28 @@
+git 基本用法
+
+1、新建目录 
+mkdir learn_git
+
+2、切换目录
+cd learn_git
+
+3、该目录下新建文件
+vi learn_git.html
+
+4、查看状态
+git status
+
+5、编辑的内容添加到暂存区
+git add learn_git.html 
+或者 git add .
+
+6、将暂存区内容提交到本地仓库
+git commit -m "Hello git init!"
+
+7、查看日志
+git log
+
+8、修改配置信息
+git config --global user.name "Xiaozhi"
+git config --global user.email "lwz3895@163.com"
+git config --global --list
